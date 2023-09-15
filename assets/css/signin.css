@@ -288,7 +288,7 @@ body {
   
   .backSide, 
   .backSide::before {
-    background-image: url('https://i.imgur.com/igEYttN.gif');
+    background-image: url('../images/backgrounds/signin.igEYttN.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
