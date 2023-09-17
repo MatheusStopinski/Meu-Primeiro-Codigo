@@ -58,7 +58,7 @@ body {
 
 .label-float label {
   color: #d2d7d3;
-  pointer-event: none;
+  pointer-events: none;
   position: absolute;
   top: 0;
   left: 0;
