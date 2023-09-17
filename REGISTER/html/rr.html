@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/rr.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Primeiro Projeto da vida ( Register )</title>
+</head>
+<body>
+    <div class="container">
+      <div class="card">
+  
+        <h1>Register</h1>
+        
+     <div id='msgSuccess'></div>
+     <div id='msgError'></div>
+  
+     <div class="label-float">
+        <input type="text" id="name" paceholder="" required class="user-input">
+        <label id="Labelname" for="name">Name</label>
+     </div>
+        
+        <div class="label-float">
+          <input type="email" id="Email" paceholder="" required>
+          <label id="LabelEmail" for="Email">E-mail</label>
+        </div>
+  
+        <div class="label-float">
+          <input type="password" id="Password" paceholder="" required>
+          <label id="LabelPassword" for="Password">Password</label>
+          <i id='SeePassword' class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+        
+        <div class="label-float">
+          <input type="password" id="ConfirmPassword" paceholder="" required>
+          <label id="LabelConfirmPassword" for="ConfirmPassword">
+  Confirm Password</label>
+          <i id='SeeConfirmPassword'class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+  
+        <div class="justify-center">
+          <Button onclick="Register()">Enter</Button>
+        </div>
+      </div>
+    </div>
+    <script src="../js/rr.js"></script>
+  </body>
+</html>
