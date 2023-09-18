@@ -29,7 +29,7 @@ function Enter() {
     if (usuario.value == item.nameCad && Password.value == item.PasswordCad) {
       userValid = {
         name: item.nameCad,
-        Password: item.PasswordCad
+        Password: item.PasswordCad,
       };
     }
   });
@@ -47,7 +47,7 @@ function Enter() {
     usuario.value == userValid.name &&
     Password.value == userValid.Password
   ) {
-    window.location.href = './signin.html'
+    window.location.href = '../../assets/html/signin.html'
 
     let token =
       Math.random().toString(16).substr(2) +

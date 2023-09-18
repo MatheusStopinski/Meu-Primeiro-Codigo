@@ -130,7 +130,7 @@ function Register() {
     
     setTimeout(() => {
     /* troca a localização da minha pagina */
-    window.location.href = 'https://cdpn.io/pen/debug/xxQEYEB?authentication_hash=PNrvYgNEGPYM'
+    window.location.href = '../../LOGIN/html/index.html'
     },2803) /* delay de quase 3 segundos */
     
      
