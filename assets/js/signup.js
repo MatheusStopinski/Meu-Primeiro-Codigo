@@ -130,7 +130,7 @@ function Register() {
     
     setTimeout(() => {
     /* troca a localização da minha pagina */
-    window.location.href = '../../signin.html';
+    window.location.href = '../../index.html';
     },2803) /* delay de quase 3 segundos */
     
      
