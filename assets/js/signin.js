@@ -47,7 +47,7 @@ function enter() {
     usuario.value == userValid.name &&
     Password.value == userValid.Password
   ) {
-    window.location.href = '../assets/html/index.html'
+    window.location.href = '../assets/html/signin.html'
 
     let token =
       Math.random().toString(16).substr(2) +
