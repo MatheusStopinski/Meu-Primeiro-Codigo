@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/signin.css">
+    <title>Primeiro Projeto da vida ( Login )</title>
+</head>
+<body>
+    <div class="container">
+      <div class="card">  
+        <h1>Bem Vindo</h1>
+
+        <div id='msgError' class="error-message"></div> 
+  
+        <div class="label-float">
+
+          <input type="text" id="usuario" paceholder="" required class="user-input">
+
+          <label id='userLabel' for="usuario">User</label>
+
+        </div>
+  
+        <div class="label-float">
+
+          <input type="password" id="Password" paceholder="" required class="Password-input">
+
+          <label id='PasswordLabel' for="Password">Password</label>
+
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+  
+        <div class="justify-center">          
+          <button type="button" onclick='enter()'>
+              Entrar
+          </button>
+        </div>
+  
+        <div class="justify-center">
+          <br>
+        </div>
+  
+        <p>
+          Não tem uma conta?
+          <a href="./assets/html/signup.html">Registre-se!</a>
+        </p>
+
+      </div>
+    </div>
+  <script src="./assets/js/signin.js"></script>
+  </body>
+</html>
